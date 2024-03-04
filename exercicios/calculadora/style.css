@@ -1,0 +1,139 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to right, #F24405, #FA7F08);
+    background: linear-gradient(to right, #F24405, #FA7F08);
+  
+    font-family: sans-serif;
+  }
+  
+  #calculadora {
+    width: 270px;
+    height: 500px;
+    background: linear-gradient(rgba(234, 237, 239, 0.8), rgba(234, 237, 239, 0.2)); /* degradê */
+    margin: 0 auto;
+    top: 20px;
+    border-radius: 20px;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), -35px 20px 20px 0 rgba(0, 0, 0, 0.19);
+    backdrop-filter: blur(10px); /* desfoca o fundo */
+    -webkit-backdrop-filter: blur(10px); /* suporte para navegadores baseados em WebKit */
+    opacity: 0.9; /* ajuste a opacidade conforme necessário */
+}
+
+
+  
+  #title {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 40px;
+  }
+  
+  #resultado {
+    height: 120px;
+  }
+  
+  .vsaida {
+    text-align: right;
+    height: 40px;
+    width: 230px;
+    margin: 5px 0px;
+    font-size: 30px;
+    outline: none;
+    border-radius: 50px;
+    border: none;
+  }
+  
+  .teclado {
+    height: 400px;
+  }
+  
+  .botaoAux,
+  .numero,
+  .limpar,
+  .divisao,
+  .soma,
+  .multiplicacao,
+  .subtracao,
+  .igual {
+    height: 50px;
+    width: 50px;
+    margin: 7px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .divisao {
+    font-size: 20px;
+    color: #fff;
+    background-color: #000000;
+  }
+  
+  .soma {
+    font-size: 20px;
+    color: #fff;
+    background-color: #000000;
+  }
+  
+  .multiplicacao {
+    font-size: 20px;
+    color: #fff;
+    background-color: #000000;
+  }
+  
+  .subtracao {
+    font-size: 20px;
+    color: #fff;
+    background-color: #000000;
+  }
+  
+  .igual {
+    font-size: 20px;
+    color: #fff;
+    background: linear-gradient(to right, #F24405, #FA7F08);
+  }
+  
+  .numero {
+    background-color: #eaedef;
+    background: linear-gradient(to right, #cbcbcb, #fff);
+  }
+  
+  .numero,
+  .botaoAux,
+  .limpar,
+  .divisao,
+  .soma,
+  .multiplicacao,
+  .igual,
+  .subtracao {
+    cursor: pointer;
+  }
+  
+  .botaoAux:active,
+  .numero:active,
+  .limpar:active,
+  .divisao:active,
+  .soma:active,
+  .multiplicacao:active,
+  .subtracao:active,
+  .igual:active {
+    font-size: 13px;
+  }
+  
+  .botaoAux:focus,
+  .numero:focus,
+  .vazio:focus,
+  .limpar:focus,
+  .divisao:focus,
+  .soma:focus,
+  .multiplicacao:focus,
+  .subtracao:focus,
+  .igual:focus {
+    outline: 0;
+  }
+  
